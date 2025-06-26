@@ -11,7 +11,7 @@ function Header() {
           <img src={logo} alt="logo" className="h-24 w-44 p-5" />
           <h1 className="text-2xl font-bold">Annapurna Treats Restaurant</h1>
         </div>
-        <nav className="text-lg text-blue-600 flex  items-center gap-5 font-bold">
+        <nav className="text-2xl text-blue-600 flex  items-center gap-8 font-bold">
           <Link
             to="/"
             className=" cursor-pointer hover:border-b-2 hover:border-fuchsia-600 transition duration-200 pb-1"
@@ -20,7 +20,7 @@ function Header() {
           </Link>
           <Link
             to="/menu"
-            className=" cursor-pointer hover:border-b-2 hover:border-fuchsia-600 transition duration-200 pb-1"
+            className=" cursor-pointer hover:border-b-4 hover:border-fuchsia-600 transition duration-200 pb-1"
           >
             Menu
           </Link>
