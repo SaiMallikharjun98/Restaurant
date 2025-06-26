@@ -6,10 +6,10 @@ import { MdOutlineAccountCircle } from "react-icons/md";
 function Header() {
   return (
     <>
-      <div className="flex bg-blue-300 justify-between">
+      <div className="flex bg-blue-300 justify-between p-5">
         <div className="flex items-center">
-          <img src={logo} alt="logo" className="h-16 w-24 p-5" />
-          <h1 className="text-lg font-bold">Annapurna Treats Restaurant</h1>
+          <img src={logo} alt="logo" className="h-24 w-44 p-5" />
+          <h1 className="text-2xl font-bold">Annapurna Treats Restaurant</h1>
         </div>
         <nav className="text-lg text-blue-600 flex  items-center gap-5 font-bold">
           <Link
