@@ -6,6 +6,15 @@ import Menu from "./pages/Menu";
 import Cart from "./pages/Cart";
 import Account from "./pages/Account";
 function App() {
+  const availableItems = [
+    { id: 1, name: "Biryani", image: "./images/biryani.avif" },
+    { id: 2, name: "Noodles", image: "./images/noodles.avif" },
+    { id: 3, name: "Fried Rice", image: "./images/friedrice.avif" },
+    { id: 4, name: "Rice", image: "./images/rice.avif" },
+    { id: 5, name: "Manchuria", image: "./images/manchuria.jpg" },
+    { id: 6, name: "Roti", image: "./images/roti.avif" },
+    { id: 7, name: "Curry", image: "./images/paneer.avif" },
+  ];
   // const menuItems = [
   //   {
   //     id: 1,
@@ -32,7 +41,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home items={availableItems} />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/account" element={<Account />} />
