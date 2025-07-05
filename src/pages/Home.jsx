@@ -4,8 +4,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 
 function Home({ items }) {
@@ -22,7 +20,7 @@ function Home({ items }) {
               <Card className="border-0 shadow-none">
                 <CardContent className="flex items-center justify-center p-2">
                   <img
-                    className="w-24 h-32 rounded-full"
+                    className="w-32 h-32 rounded-full"
                     src={item.image}
                     alt={item.name}
                   />
@@ -33,8 +31,6 @@ function Home({ items }) {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
     </Carousel>
   );
 }
