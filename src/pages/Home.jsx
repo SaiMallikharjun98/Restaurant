@@ -13,7 +13,7 @@ import {
 function Home({ items }) {
   return (
     <>
-      <Carousel className="w-full max-w-sm border-0">
+      <Carousel className="w-full max-w-full ">
         <CarouselContent className="ml-1">
           {items.map((item, index) => (
             <CarouselItem
