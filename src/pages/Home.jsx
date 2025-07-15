@@ -10,8 +10,8 @@ import {
 function Home({ items }) {
   return (
     <div className="w-full relative">
-      <img src={image} alt="backgroundImage" className="h-24 w-full" />
-      <Carousel className="w-full max-w-full">
+      <img src={image} alt="backgroundImage" className="h-24 w-full background-cover" />
+      <Carousel className="w-full max-w-full absolute ">
         <CarouselContent className="ml-1 flex">
           {items.map((item, index) => (
             <CarouselItem
