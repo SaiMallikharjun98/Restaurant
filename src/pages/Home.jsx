@@ -44,16 +44,16 @@ function Home() {
       </div> */}
 
       <main>
-        <div className="relative h-64 w-full bg-cover bg-center flex  items-center justify-center pt-12">
+        <div className="relative h-64 w-full bg-cover bg-center flex  items-center justify-center pt-16">
           <img
             src={mainBackground}
             alt="mainImage"
             className="w-full h-96 bg-cover"
           />
-          <h1 className="absolute text-center font-bold mb-2 text-3xl ">
+          <h1 className="absolute text-center font-bold mb-3 text-3xl ">
             Welcome to Annapurna Treats Restaurant!
           </h1>
-          <p className="absolute text-center max-w-xl font-light pt-12">
+          <p className="absolute text-center max-w-xl font-light pt-14">
             Experience delicious flavors, cozy ambiance, and heartfelt
             hospitality. Enjoy your meal!
           </p>
