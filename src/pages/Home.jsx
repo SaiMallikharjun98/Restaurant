@@ -44,7 +44,7 @@ function Home() {
       </div> */}
 
       <main>
-        <div className="relative h-64 w-full bg-cover bg-center flex  items-center justify-center pt-4">
+        <div className="relative h-64 w-full bg-cover bg-center flex  items-center justify-center pt-8">
           <img
             src={mainBackground}
             alt="mainImage"
