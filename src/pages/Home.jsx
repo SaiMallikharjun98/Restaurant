@@ -11,7 +11,7 @@ function Home({ items }) {
   return (
     <div
       style={{ backgroundImage: `url(${image})` }}
-      className="h-48 w-full bg-cover relative"
+      className="h-56 w-full bg-cover relative"
     >
       <Carousel className="w-full max-w-full absolute ">
         <CarouselContent className="ml-1 flex">
@@ -25,7 +25,7 @@ function Home({ items }) {
                 <Card className="border-0 shadow-none">
                   <CardContent className="flex items-center justify-center p-2">
                     <img
-                      className="w-32 h-32 rounded-full"
+                      className="w-32 h-32 rounded-full text-white"
                       src={item.image}
                       alt={item.name}
                     />
