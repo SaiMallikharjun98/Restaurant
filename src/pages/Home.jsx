@@ -11,7 +11,7 @@ function Home({ items }) {
   return (
     <div
       style={{ backgroundImage: `url(${image})` }}
-      className="h-24 w-full bg-cover relative"
+      className="h-36 w-full bg-cover relative"
     >
       <Carousel className="w-full max-w-full absolute ">
         <CarouselContent className="ml-1 flex">
